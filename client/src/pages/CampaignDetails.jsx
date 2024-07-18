@@ -50,7 +50,7 @@ const CampaignDetails = () => {
     try {
       setLoading(true);
       const owner = await contract.getCampaignOwner(id);
-      if(walletAddress === owner) {
+      if(walletAddress.toLowerCase() === owner.toLowerCase()) {
         const tx = await contract.deleteCampaign(id);
         await tx.wait();
         navigate('/your-campaigns');
@@ -126,7 +126,7 @@ const CampaignDetails = () => {
               {loading ? 'Donating...' : 'Donate'}
             </button>
           </div>
-          <button onClick={() => walletAddress === campaign.owner ? navigate(`/update-campaign/${id}`) : alert("Invalid Credentials")} className='flex items-center justify-center w-fit mb-8 rounded-full px-3 py-1 gap-2 text-white font-semibold shadow-2xl hover:shadow-gray-950 bg-red-300'>
+          <button onClick={() => walletAddress.toLowerCase() === campaign.owner.toLowerCase() ? navigate(`/update-campaign/${id}`) : alert("Invalid Credentials")} className='flex items-center justify-center w-fit mb-8 rounded-full px-3 py-1 gap-2 text-white font-semibold shadow-2xl hover:shadow-gray-950 bg-red-300'>
             <p> Update campaign </p>
             <img src={update} width={15} height={15}/>
           </button>
