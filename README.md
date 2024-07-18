@@ -5,6 +5,7 @@
 
 ## Overview  
 Thrive is built to support developers in bringing their innovative ideas to life by providing a platform where they can present their projects and receive funding from the community. Users can browse various campaigns, learn about different projects, and contribute ETH to the ones they find promising.  
+Currently Thrive uses sepolia testnet.
 
 ## Features
 Developers can create and manage their campaigns.  
@@ -83,4 +84,4 @@ Create a pull request.
 ## License
 This project is licensed under the MIT License.
 
-#Feel free to customize this README further to suit your project's needs!
+# Feel free to customize this README further to suit your project's needs!
