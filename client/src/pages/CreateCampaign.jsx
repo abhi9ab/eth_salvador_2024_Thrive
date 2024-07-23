@@ -70,7 +70,7 @@ const CreateCampaign = () => {
               <button onClick={handleNavigate} type="button" className='bg-transparent focus:outline-none'><img src={close} width={15} height={15}/></button>
             </div>
 
-            <div className='flex justify-between item-center bg-white rounded-xl mt-5 h-[40px]'>
+            <div className='flex justify-between items-center bg-white rounded-xl mt-5 h-[40px]'>
               <input 
                 className='bg-transparent w-full text-md border-0 focus:outline-none focus:ring-0 mx-5 py-2'
                 type='text'
@@ -82,7 +82,7 @@ const CreateCampaign = () => {
               />
             </div>
 
-            <div className='flex justify-between item-center bg-white rounded-xl mt-5 h-[90px]'>
+            <div className='flex justify-between items-center bg-white rounded-xl mt-5 h-[90px]'>
               <textarea 
                 className='bg-transparent w-full text-md border-0 focus:outline-none focus:ring-0 mx-5 py-2'
                 type='text'
@@ -94,7 +94,7 @@ const CreateCampaign = () => {
               />
             </div>
 
-            <div className='flex justify-between item-center bg-white rounded-xl mt-5 h-[40px]'>
+            <div className='flex justify-between items-center bg-white rounded-xl mt-5 h-[40px]'>
               <input 
                 className='bg-transparent w-full text-md border-0 focus:outline-none focus:ring-0 mx-5 py-2'
                 type='date'
@@ -105,7 +105,7 @@ const CreateCampaign = () => {
               />
             </div>
 
-            <div className='flex justify-between item-center bg-white rounded-xl mt-5 h-[40px]'>
+            <div className='flex justify-between items-center bg-white rounded-xl mt-5 h-[40px]'>
               <input 
                 className='bg-transparent w-full text-md border-0 focus:outline-none focus:ring-0 mx-5 py-2'
                 type='url'
