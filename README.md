@@ -1,4 +1,4 @@
-# Thrive  
+# [Thrive eth-salvador-2024](https://eth-salvador.devfolio.co/)  
 
 ## Thrive is a decentralized crowdfunding application where developers can share their project ideas and receive Ethereum (ETH) contributions from supporters as a token of appreciation.  
 ![Thrive](https://github.com/user-attachments/assets/c7b7d706-e2cd-46f9-b89f-0a9b0d0d0ca0)
